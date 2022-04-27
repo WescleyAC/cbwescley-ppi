@@ -1,15 +1,15 @@
 let select = document.getElementById("product");
 
 
-function fOcorrenci(){
-let flag = document.getElementById("product").value;
- document.getElementById("vtext").innerHTML = flag + " "+ "Pontos.";
+function situations (){
+let vSituations = document.getElementById("product").value;
+ document.getElementById("vtext").innerHTML = vSituations + " "+ "Pontos.";
  
 }
 
-function fOcorrenci2(){
-let flag2 = document.getElementById("product2").value;
+function arrests(){
+let vArrests = document.getElementById("product2").value;
 let vInput = document.getElementById("value").value;
- document.getElementById("vtext2").innerHTML = flag2 * vInput + " "+ "Pontos.";
+ document.getElementById("vtext2").innerHTML = vArrests * vInput + " "+ "Pontos.";
  
 }

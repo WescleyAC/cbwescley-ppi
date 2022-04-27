@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-size: 20px;
 }
 
 label{
@@ -11,6 +12,7 @@ margin-left: 90px;
 .valuetextp{
 
     margin-left: 110px;
+    font-size: 20px;
 }
 
 .container {
@@ -27,7 +29,7 @@ margin-left: 90px;
 
 .box {
 
-    width: 300px;
+    width: 500px;
     height: 500px;
     background: #fff;
 
@@ -36,7 +38,16 @@ margin-left: 90px;
 .selectocorrenci {
 
     padding-top: 8px;
-    margin-left: 70px;
+    margin-left: 16px;
+    font-size: 20px;
+
+}
+
+.inputocorrenci {
+
+    padding-top: 8px;
+    margin-left: 60px;
+    font-size: 20px;
 
 }
 
@@ -44,4 +55,5 @@ margin-left: 90px;
 
     padding-top: 8px;
     margin-left: 32px;
+    font-size: 20px;
 }

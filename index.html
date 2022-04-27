@@ -18,17 +18,19 @@
         <div class="box">
             <form action="">
                 <label>Calcular Pontuação</label> <br><br>
-                <select class="selectocorrenci" name="ocorrenci" id="product" onchange="fOcorrenci()">
+                <select class="selectocorrenci" name="ocorrenci" id="product" onchange="situations()">
                     <option value="" selected>--Tipo de Ocorrêrncia--</option>
                     <option value="20">Flagrante</option>
                     <option value="5">Tco</option>
+                    <option value="100">Mandado de prisão/Apreensão de menor</option>
+                    <option value="10">Mandado de busca/Apreensão de objetos</option>
                 </select>
 
                 <p class="valuetextp" id="vtext"></p> <br><br><br><br>
 
-                <input class="selectocorrenci" type="number" min="1" id="value" placeholder="Quantidade em gramas">
+                <input class="inputocorrenci" type="number" min="1" id="value" placeholder="Quantidade em gramas">
                 <br> <br>
-                <select class="selectintoxicating" name="ocorrenci" id="product2" onchange="fOcorrenci2()">
+                <select class="selectintoxicating" name="ocorrenci" id="product2" onchange="arrests()">
                     <option value="" selected>--Tipo de Entorpecente Apreendido--</option>
                     <option value="5">Maconha</option>
                     <option value="10">Crack</option>
