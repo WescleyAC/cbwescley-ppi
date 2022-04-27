@@ -1,20 +1,47 @@
-* {
-    margin: 0;
-    padding: 0;
-    vertical-align: baseline;
+body {
+    margin: 0px;
 }
 
-form{
-    
-    width: 30%;
-    height: 250px;
-    margin: 0 auto;
-    margin-top: 30px;
-    font-size: 20px;
-    padding-top: 25px;
-    padding: 20px;
-    }
+label{
 
-    
-   
+margin-left: 90px;
 
+}
+
+.valuetextp{
+
+    margin-left: 110px;
+}
+
+.container {
+
+    width: 100vw;
+    height: 100vh;
+    background: #55A653;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box {
+
+    width: 300px;
+    height: 500px;
+    background: #fff;
+
+}
+
+.selectocorrenci {
+
+    padding-top: 8px;
+    margin-left: 70px;
+
+}
+
+.selectintoxicating {
+
+    padding-top: 8px;
+    margin-left: 32px;
+}

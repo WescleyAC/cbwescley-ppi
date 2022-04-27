@@ -14,30 +14,34 @@
 </head>
 
 <body>
-<form action="">
-    <label>Calcular Pontuação</label> <br><br>
-    <select name="ocorrenci" id="product" onchange="fOcorrenci()">
-        <option value="" selected>--Tipo de Ocorrêrncia--</option>
-        <option value="20">Flagrante</option>
-        <option value="5">Tco</option>
-    </select>
+    <div class="container">
+        <div class="box">
+            <form action="">
+                <label>Calcular Pontuação</label> <br><br>
+                <select class="selectocorrenci" name="ocorrenci" id="product" onchange="fOcorrenci()">
+                    <option value="" selected>--Tipo de Ocorrêrncia--</option>
+                    <option value="20">Flagrante</option>
+                    <option value="5">Tco</option>
+                </select>
 
-    <p id="vtext"></p>  <br><br><br><br>
+                <p class="valuetextp" id="vtext"></p> <br><br><br><br>
 
-    
-    <select name="ocorrenci2" id="product2" onchange="fOcorrenci2()">
-        <option value="" selected>--Tipo de Material Apreendido--</option>
-        <option value="5">Maconha</option>
-        <option value="10">Crack</option>
-        <option value="12">Cocaína</option>
-    </select>
+                <input class="selectocorrenci" type="number" min="1" id="value" placeholder="Quantidade em gramas">
+                <br> <br>
+                <select class="selectintoxicating" name="ocorrenci" id="product2" onchange="fOcorrenci2()">
+                    <option value="" selected>--Tipo de Entorpecente Apreendido--</option>
+                    <option value="5">Maconha</option>
+                    <option value="10">Crack</option>
+                    <option value="12">Cocaína</option>
+                </select>
 
-    <input type="number" min="1" id="value" placeholder="Quantidade em gramas">
+                
 
-    <p id="vtext2"></p>
+                <p class="valuetextp" id="vtext2"></p>
 
-</form>
-
+            </form>
+        </div>
+    </div>
 
 </body>
 
