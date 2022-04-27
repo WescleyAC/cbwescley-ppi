@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style-form.css">
+
+    <title>PPI</title>
+
+
+</head>
+
+<body>
+<form action="">
+    <label>Calcular Pontuação</label> <br><br>
+    <select name="ocorrenci" id="product" onchange="fOcorrenci()">
+        <option value="" selected>--Tipo de Ocorrêrncia--</option>
+        <option value="20">Flagrante</option>
+        <option value="5">Tco</option>
+    </select>
+
+    <p id="vtext"></p>  <br><br><br><br>
+
+    
+    <select name="ocorrenci2" id="product2" onchange="fOcorrenci2()">
+        <option value="" selected>--Tipo de Material Apreendido--</option>
+        <option value="5">Maconha</option>
+        <option value="10">Crack</option>
+        <option value="12">Cocaína</option>
+    </select>
+
+    <input type="number" min="1" id="value" placeholder="Quantidade em gramas">
+
+    <p id="vtext2"></p>
+
+</form>
+
+
+</body>
+
+<script src="./calculate.js"></script>
+
+</html>
