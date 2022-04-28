@@ -9,6 +9,7 @@ h4{
     background: #000000;
     font-size: 25px;
     text-align: center;
+    margin-bottom: 20px;
 
 }
 
@@ -35,6 +36,9 @@ h4{
 
     
     background: #E7E9EB;
+    height: 90%;
+    width: 100%;
+    
     
 
 }
@@ -54,9 +58,9 @@ h4{
 .inputocorrenci {
 
     padding-top: 8px;
-    margin-left: 15%;
+    margin-left: 35%;
     font-size: 20px;
-    width: 70%;
+    width: 35%;
     text-align: center;
     margin-top: 180px;
     margin-bottom: 5px;
