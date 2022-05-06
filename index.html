@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+   
     <link rel="stylesheet" href="./style-form.css">
 
     <title>PPI</title>
@@ -17,27 +21,29 @@
     <div class="container">
         <div class="box">
 
-                <h4>Calcular Pontuação</h4>
-                <select class="selectocorrenci" name="ocorrenci" id="product" onchange="situations()">
-                    <option value="" selected>--Ocorrêrncia--</option>
-                    <option value="20">Flagrante</option>
-                    <option value="5">Tco</option>
-                    <option value="100">Mandado de prisão/Apreensão de menor</option>
-                    <option value="10">Mandado de busca/Apreensão de objetos</option>
-                </select>
+            <h4>Calcular Pontuação</h4>
+            <select class="selectocorrenci1" name="ocorrenci" id="product" onchange="situations()">
+                <option value="" selected>-Ocorrêrncia-</option>
+                <option value="20">Flagrante</option>
+                <option value="5">Tco</option>
+                <option value="100">Mandado de prisão/Apreensão de menor</option>
+                <option value="10">Mandado de busca/Apreensão de objetos</option>
+            </select>
 
-                <p class="valuetextp" id="vtext"></p> 
+            <p class="valuetextp" id="vtext"></p>
+            
 
-                <input class="inputocorrenci" type="number" min="1" id="value" placeholder="Quantidade/g" autofocus>
-                
-                <select class="selectocorrenci" name="ocorrenci" id="product2" onchange="arrests()">
-                    <option value="" selected>--Entorpecente Apreendido--</option>
-                    <option value="5">Maconha</option>
-                    <option value="10">Crack</option>
-                    <option value="12">Cocaína</option>
-                </select>
+            <input class="inputocorrenci" type="number" min="1" id="value" style="width: 170px;" placeholder="Quantidade/g" autofocus>
 
-                <p class="valuetextp" id="vtext2"></p>
+            <select  class="selectocorrenci2" name="ocorrenci" id="product2" onchange="arrests()">
+                <option value="" selected>-Entorpecente-</option>
+                <option value="5">Maconha</option>
+                <option value="10">Crack</option>
+                <option value="12">Cocaína</option>
+            </select>
+
+            <p class="valuetextp" id="vtext2"></p>
+            <p class="valuetextp" id="vtext3"></p>
 
         </div>
     </div>
