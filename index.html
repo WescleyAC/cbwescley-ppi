@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-   
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-   
+
     <link rel="stylesheet" href="./style-form.css">
 
     <title>PPI</title>
@@ -31,11 +31,12 @@
             </select>
 
             <p class="valuetextp" id="vtext"></p>
-            
 
-            <input class="inputocorrenci" type="number" min="1" id="value" style="width: 170px;" placeholder="Quantidade/g" autofocus>
 
-            <select  class="selectocorrenci2" name="ocorrenci" id="product2" onchange="arrests()">
+            <input class="inputocorrenci" type="number" min="1" id="value" style="width: 170px;"
+                placeholder="Quantidade/g" autofocus>
+
+            <select class="selectocorrenci2" name="ocorrenci" id="product2" onchange="arrests()">
                 <option value="" selected>-Entorpecente-</option>
                 <option value="5">Maconha</option>
                 <option value="10">Crack</option>
@@ -43,9 +44,12 @@
             </select>
 
             <p class="valuetextp" id="vtext2"></p>
-            
-         <p>Total:</p> <p id="vtotal"></p> <p id="vtext3"></p>
 
+            <div id="divtotal">
+                <p>Total:</p>
+                <p id="vtotal"></p>
+                <p id="vtext3"></p>
+            </div>
 
         </div>
     </div>
