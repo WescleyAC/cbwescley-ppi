@@ -36,7 +36,7 @@
             <input class="inputocorrenci" type="number" min="1" id="value" style="width: 170px;"
                 placeholder="Quantidade/g" autofocus>
 
-            <select class="selectocorrenci2" name="ocorrenci" id="product2" onchange="arrests()">
+            <select class="selectocorrenci2" name="ocorrenci" id="product2">
                 <option value="" selected>-Entorpecente-</option>
                 <option value="5">Maconha</option>
                 <option value="10">Crack</option>
@@ -49,10 +49,18 @@
                 <p>Total:</p>
                 <p id="vtotal"></p>
                 <p id="vtext3"></p>
+
+
+
             </div>
+                         <button id="btotal" onclick="arrests()">Calcular</button>
 
         </div>
+
+
     </div>
+
+
 
 </body>
 
